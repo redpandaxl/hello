@@ -19,7 +19,7 @@ func TestHello(t *testing.T) {
 
 	t.Run("empty string defaults to 'World'", func(t *testing.T) {
 		got := Hello("")
-		want := "Hello, World"
+		want := "Hello, World2"
 		assertCorrectMessage(t, got, want)
 	})
 
